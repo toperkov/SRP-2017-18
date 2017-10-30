@@ -4,7 +4,7 @@ Enkripcija simetričnim ključem se temelji na slijednim ili blok šiframa
 * **Slijedne šifre** konzumiraju jedan po jedan bit
   * **Primjer:** **one-time pad** (iako neizvediva u većini primjena); **RC4** (ne koristi se); većina blok šifri se može pretvoriti u slijedne šifre korištenjem specijalnih modova.
 * **Blok šifre** rade s porukama fiksne duljine
-  * **Primjer:** *Data Encryption Standard* (**DES**) - ne koristi se, *Advanced Encryption Standard* (**AES**) - dizajniran kako bi jednako bio efikasan za softver i hardver, te podupire rad s blokovima duljine 128 bitova i ključevima duljine 128, 192 i 256 bitova. U praksi je duzina skupa poruka koju treba procesirati puno duza od fiksnog bloka sa kojim radi sifra (npr., DES blok ima 64 bita). Blok šifra "razbije" ulaznu poruku u seriju sekvencijalnih blokova odgovarajuce dužine (npr. 128 bita), te procesira ove blokove po principu "jedan po jedan".
+  * **Primjer:** *Data Encryption Standard* (**DES**) - ne koristi se, *Advanced Encryption Standard* (**AES**) - dizajniran kako bi jednako bio efikasan za softver i hardver te podupire rad s blokovima duljine 128 bitova i ključevima duljine 128, 192 i 256 bitova. U praksi je duzina skupa poruka koju treba procesirati puno duza od fiksnog bloka sa kojim radi sifra (npr., DES blok ima 64 bita). Blok šifra "razbije" ulaznu poruku u seriju sekvencijalnih blokova odgovarajuce dužine (npr. 128 bita), te procesira ove blokove po principu "jedan po jedan".
 
 Ovisno o tome kako blok šifra procesira sekvencu blokova, postoje različiti modove rada blok sifri. Jedan od tih modova je i CBC mode.
 
