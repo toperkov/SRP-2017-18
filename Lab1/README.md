@@ -2,10 +2,9 @@
 
 Enkripcija simetričnim ključem se temelji na slijednim ili blok šiframa
 * Slijedne šifre konzumiraju jedan po jedan bit
-
-  * Primjer: one-time pad (iako neizvediva u većini primjena); RC4 (ne koristi se); većina blok šifri se može pretvoriti u slijedne šifre korieštenjem specijalnih modova.
+ * Primjer: one-time pad (iako neizvediva u većini primjena); RC4 (ne koristi se); većina blok šifri se može pretvoriti u slijedne šifre korieštenjem specijalnih modova.
 * Blok šifre rade s porukama fiksne duljine
-  * Primjer: Data Encryption Standard (DES) - ne koristi se, Advanced Encryption Standard (AES) - dizajniran kako bi jednako bio efikasan za softver i hardver, te podupire rad s blokovima duljine 128 bitova i ključevima duljine 128, 192 i 256 bitova.
+ * Primjer: Data Encryption Standard (DES) - ne koristi se, Advanced Encryption Standard (AES) - dizajniran kako bi jednako bio efikasan za softver i hardver, te podupire rad s blokovima duljine 128 bitova i ključevima duljine 128, 192 i 256 bitova.
 
 Blok šifre (eng. Block cipher) rade sa blokovima fiksne duljine te zahtijevaju da je posljednji blok ispunjen sa padding-om ukoliko je njegova veličina manja od ukupne veličine bloka. S druge straen, kod  cijele blokove i zahtijevaju da zadnji dio podataka bude ispunjen punim blokom ako je manji od trenutne veličine bloka. Postoje, i načini koji ne zahtijevaju padding jer učinkovito koriste blok šifra kao slijednu šifru tok.
 
