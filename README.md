@@ -1,7 +1,6 @@
 # Symmetric Key Encryption
 
-## Symmetric-key encryption is based on either stream ciphers or block ciphers.
-
+Symmetric-key encryption is based on either stream ciphers or block ciphers.
 * Stream ciphers consume the message one bit at a time
   * Examples: the legendary one-time pad (though unfeasible for most applications); RC4 (deprecated); most block ciphers can be turned into stream ciphers using special modes of operation (read on).
 * Block ciphers operate on fixed-length blocks
