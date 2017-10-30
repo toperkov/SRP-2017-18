@@ -8,8 +8,6 @@ Enkripcija simetričnim ključem se temelji na slijednim ili blok šiframa
 
 Blok šifre (eng. Block cipher) rade sa blokovima fiksne duljine te zahtijevaju da je posljednji blok ispunjen sa padding-om ukoliko je njegova veličina manja od ukupne veličine bloka. S druge straen, kod  cijele blokove i zahtijevaju da zadnji dio podataka bude ispunjen punim blokom ako je manji od trenutne veličine bloka. Postoje, i načini koji ne zahtijevaju padding jer učinkovito koriste blok šifra kao slijednu šifru tok.
 
-In CBC (Cipher Block Chaining) mode, each block of plaintext is XORed with the previous ciphertext block before being encrypted. This way, each ciphertext block depends on all plaintext blocks processed up to that point. To make each message unique, a random initialization vector must be used in for first block.
-
 U CBC (Cipher Block Chaining) modu, svaki plaintext blok teksta se XOR-a s prethodnim ciphertext blokom blokom prje enkripcije. Na taj način, svaki ciphertext blok ovisi o svim prethodnim plaintext blokovima. Kako bi svaka poruka bila jedinstvena, za prvi blok treba koristiti nasumično generirani inicijalizacijski vektor.
 
 ![CBC](https://user-images.githubusercontent.com/8695815/32179472-c9921c10-bd8f-11e7-85c8-1666f653835a.png)
