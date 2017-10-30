@@ -12,7 +12,7 @@ U CBC (*Cipher Block Chaining*) modu, svaki *plaintext* blok teksta se XOR-a s p
 
 ![CBC](https://user-images.githubusercontent.com/8695815/32179472-c9921c10-bd8f-11e7-85c8-1666f653835a.png)
 
-In [Studenti](Studenti) folder every student is given an file (secret.enc) encrypted using the following code. Can you decrypt it?
+U direktoriju [Studenti](Studenti) svakom studentu je dan file (secret.enc) enkriptiran korištenjem dole navedenog koda. Možete li ga dekriptirati?
 
 ```python
 from cryptography.hazmat.primitives.ciphers import (
