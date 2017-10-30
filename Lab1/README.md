@@ -1,4 +1,4 @@
-# Symmetric Key Encryption
+# Kriptografija zasnovana na simetričnom ključu 
 
 Enkripcija simetričnim ključem se temelji na slijednim ili blok šiframa
 * **Slijedne šifre** konzumiraju jedan po jedan bit
