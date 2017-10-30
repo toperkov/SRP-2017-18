@@ -12,7 +12,7 @@ Most block cipher modes require a unique binary sequence, often called an initia
 
 In CBC (Cipher Block Chaining) mode, each block of plaintext is XORed with the previous ciphertext block before being encrypted. This way, each ciphertext block depends on all plaintext blocks processed up to that point. To make each message unique, a random initialization vector must be used in for first block.
 
-The file was encrypted using the following code. Can you decrypt it?
+The [Lab1/Studenti](Lab1/Studenti) folder every student is given an file (secret.enc) encrypted using the following code. Can you decrypt it?
 
 ```python
 from cryptography.hazmat.primitives.ciphers import (
