@@ -1,6 +1,6 @@
 # Hash funkcije 
 
-U direktoriju [Studenti](Studenti) svakom studentu je dan file (secret.enc) čiji je sadržaj nastao kao rezultat hashiranja korisnikovig Prezimena, Imena i sedmeroznamenkasto nasumično generiranog broja. Možete li saznati o kojem se broju radi (HINT: koristitie brute-force sedmeroznamenkastog broja).
+U direktoriju [Studenti](Studenti) svakom studentu je dan file (secret.enc) čiji je sadržaj nastao kao rezultat hashiranja korisnikovig **Prezimena**, **Imena** i **sedmeroznamenkasto nasumično generiranog broja**. Možete li saznati o kojem se broju radi (**HINT:** koristite brute-force).
 
 ```python
 from cryptography.hazmat.primitives.ciphers import (
