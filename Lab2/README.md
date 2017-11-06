@@ -25,8 +25,8 @@ def calculateHash (student_name, randomNumber):
 
 if __name__ == '__main__':
 
-	pass_size = 7
-	randomNumber = ''.join(str(x) for x in list(map(random.randrange, [10]*pass_size)))
+	number_size = 7
+	randomNumber = ''.join(str(x) for x in list(map(random.randrange, [10]*number_size)))
 	hash = calculateHash('Prezime Ime', randomNumber)
 	#kod kreiranja hasha nisu korištena slova abecede ćčžšđ,
 	#odnosno umijesto npr. Perković se koristio Perkovic
