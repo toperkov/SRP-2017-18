@@ -32,8 +32,8 @@ if __name__ == '__main__':
 	number_size = 7
 	randomNumber = ''.join(str(x) for x in list(map(random.randrange, [10]*number_size)))
 	hash = calculateHash('Prezime Ime', randomNumber)
-	#kod kreiranja hasha nisu korištena slova abecede ćčžšđ,
-	#odnosno umijesto npr. Perković se koristio Perkovic
+	# kod kreiranja hasha nisu korištena slova abecede ćčžšđ,
+	# odnosno umijesto npr. Perković se koristio Perkovic
 
 	f_out = open("secret.enc", 'wb')
 	f_out.write(hash)
