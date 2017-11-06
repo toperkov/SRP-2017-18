@@ -35,7 +35,7 @@ if __name__ == '__main__':
 	# kod kreiranja hasha nisu korištena slova abecede ćčžšđ,
 	# odnosno umijesto npr. Perković se koristio Perkovic
 
-	f_out = open("secret.enc", 'wb')
+	f_out = open("hashvalue", 'wb')
 	f_out.write(hash)
 	f_out.close()
 
