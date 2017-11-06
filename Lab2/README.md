@@ -1,7 +1,9 @@
 # Hash funkcije 
 
-U direktoriju [Studenti](Studenti) svakom studentu je dan file (secret.enc) čiji je sadržaj nastao kao rezultat hashiranja korisnikovig Prezimena, Imena i sedmeroznamenkastog (7) generiranog broja, (npr. *hash('Prezime Ime0123456')*). Možete li saznati o kojem se *random* broju radi (**HINT:** koristite brute-force). 
+U direktoriju [Studenti](Studenti) svakom studentu je dan file (secret.enc) čiji je sadržaj nastao kao rezultat hashiranja korisnikovig Prezimena, Imena i sedmeroznamenkastog (7) generiranog broja, (npr. *hash('Prezime Ime0123456')*). Možete li saznati o kojem se *random* broju radi (**HINT:** koristite brute-force).
+
 **Napomena**: prilikom računanja hash-a nisu korištena slova abecede ćčžšđ i imenu i prezimenu.
+
 U nastavku se nalazi kod za računanje *hash*-a.
 
 ```python
